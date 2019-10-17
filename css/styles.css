@@ -1,5 +1,7 @@
 body {
     font-family: 'Share Tech Mono', sans-serif;
+    background: url(../images/bg.jpg)top left no-repeat;
+    color: #0c4bff;
 
 }
 
@@ -12,6 +14,11 @@ h2 {
     font-size: 36px;
     color: #0c4bff !important;
 }
+h3 {
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 28px;
+    color: #0c4bff !important;
+}
 
 p {
     font-family: 'Share Tech Mono', sans-serif;
@@ -19,6 +26,17 @@ p {
     line-height: 40px;
     letter-spacing: 2;
     color: #0c4bff !important;
+}
+li {
+    font-size: 20px;
+}
+
+.heading2 {
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+.center-text {
+    text-align: center;
 }
 
 .large-top-spacer {
