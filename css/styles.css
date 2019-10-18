@@ -25,12 +25,31 @@ p {
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 2;
-    color: #0c4bff !important;
+    color: #0c4bff;
+}
+a {
+    color: #0c4bff;
+}
+a:hover {
+    color: #c61f1f;
 }
 li {
     font-size: 20px;
 }
-
+.header {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    background: transparent;
+}
+.logo {
+    width: 100px;
+    display: block;
+}
+.menu {
+    display: inline;
+    float: right;
+}
 .heading2 {
     text-transform: uppercase;
     letter-spacing: 20px;
@@ -60,6 +79,14 @@ ul.icon-list li img {
     text-align: center;
 }
 
+.white {
+    color: #fff;
+}
+
+footer {
+    height: 60px;
+}
+
 @media screen and (min-width: 600px) {
     .large-top-spacer {
         margin-top: 100px;
@@ -72,5 +99,8 @@ ul.icon-list li img {
     }
     ul.icon-list li img {
         width: 80px;
+    }
+    .logo {
+        width: 350px;
     }
 }

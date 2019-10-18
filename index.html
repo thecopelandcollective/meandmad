@@ -12,13 +12,28 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 
 <link rel="stylesheet" href="css/styles.css">
-<script type="text/javascript" src="js/scripts.js"></script>
 
 </head>
 
 <body>
+    <div class="container-fluid header">
+        <div class="row">
+            <div class="col-md-8">
+                <img class="logo" src="images/meandmad-logo.png" />
+            </div>
+            <div class="col-md-4">
+                <ul class="menu hidden-sm-down">
+                    <li><a href="#listen">listen</a></li>
+                    <li><a href="#videos">videos</a></li>
+                    <li><a href="#bio">bio</a></li>
+                    <li><a href="#live-shows">live shows</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col">
@@ -28,7 +43,7 @@
     </div>
     <div class="container">
         <div class="row large-top-spacer">
-            <div class="col-sm-12 col-md-8">
+            <div class="col-sm-12 col-md-6" id="listen">
                 <h2 class="heading2">latest release<h2>
                 <h3 class="small-top-spacer">Title: Gullible Mood</h3>
                 <h3>Tracks:</h3>
@@ -48,25 +63,48 @@
                     <li><a href="https://music.amazon.com/albums/B07NZ35X7J?trackAsin=B07P182J2W&ref=dm_sh_4a60-e7b2-dmcp-3216-5663f&musicTerritory=US&marketplaceId=ATVPDKIKX0DER"><img src="images/Amazonmusiclogo.png" /></a></li>
                 </ul> -->
             </div>
-            <div class="col-sm-8 offset-sm-2 col-md-4 justify-text-center">
+            <div class="col-sm-8 offset-sm-2 col-md-6 justify-text-center">
                 <img class="respond" src="images/gullible-mood-cover.jpg" />
                 <h2 class="text-center">Listen Now</h2>
             </div>
         </div>
-        <div class="row large-top-spacer">
+    </div>
+    <div class="container-fluid">
+        <div class="row large-top-spacer" id="videos">
             <h2 class="heading2 center-text">videos</h2>
-            <div class=".center-video-player">
-              <div><iframe width="560" height="315" src="https://www.youtube.com/embed/ztapvHtFkH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-              <div><iframe width="560" height="315" src="https://www.youtube.com/embed/xBu8WxlHW1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-              <div><iframe width="560" height="315" src="https://www.youtube.com/embed/w4dkbS6_Z0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="center small-top-spacer">
+                <iframe width="1080" height="608" src="https://www.youtube.com/embed/ztapvHtFkH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="1080" height="608" src="https://www.youtube.com/embed/xBu8WxlHW1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="1080" height="608" src="https://www.youtube.com/embed/w4dkbS6_Z0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <div class="large-top-spacer">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row large-top-spacer">
+            <div class="col-sm-8 offset-sm-2 col-md-6">
+                <h2 class="heading2" id="bio">bio</h2>
+                <p class="white">Growing up in suburban Detroit, Gavin and his sister Madison, along with friend Sam were shaped by the rich musical history of the city. Coming from a homeschooling background, they were able to focus their time on what they loved and have created a unique sound that mashes 90's pop with Detroit techno while sprinkling in a bit of blues and jazz.</p>
+            </div>
+            <div class="col-sm-8 offset-sm-2 col-md-6">
+                <h2 class="heading2" id="live-shows">upcoming</h2>
+                <p>no current shows</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <footer>
+        </footer>
     </div>
 
 
     <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
     </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
             crossorigin="anonymous">
@@ -76,4 +114,5 @@
             crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 </body>
