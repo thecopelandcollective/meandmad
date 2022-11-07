@@ -1,6 +1,9 @@
 body {
+  width: 100%;
     font-family: 'Share Tech Mono', sans-serif;
-    background: url(../images/bg.jpg)top left no-repeat;
+    background: url("../images/tiger-bg.svg");
+    background-position:center;
+    background-repeat: round;
     color: #0c4bff;
 
 }
@@ -17,7 +20,7 @@ h2 {
 h3 {
     font-family: 'Share Tech Mono', sans-serif;
     font-size: 28px;
-    color: #0c4bff !important;
+    color: #2e2e2e !important;
 }
 
 p {
@@ -25,7 +28,7 @@ p {
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 2;
-    color: #0c4bff;
+    color: #2e2e2e;
 }
 a {
     color: #0c4bff;
@@ -35,12 +38,14 @@ a:hover {
 }
 li {
     font-size: 20px;
+    color: #2e2e2e;
 }
 .header {
     position: absolute;
     top: 15px;
     left: 25px;
     background: transparent;
+    width: 100%;
 }
 .logo {
     width: 100px;
@@ -48,7 +53,13 @@ li {
 }
 .menu {
     display: inline;
-    float: right;
+    float: left;
+}
+.menu a {
+  color: #ffffff;
+}
+.menu a:hover {
+    color: #c61f1f;
 }
 .heading2 {
     text-transform: uppercase;
